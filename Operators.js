@@ -104,3 +104,9 @@ let passPercentage = (passedTest /totaltest) * 100;
 console.log(passPercentage); // Output: 50 
 
 
+
+let marks = 85;
+let grade = (marks >= 90) ? 'A' : (marks >= 80) ? 'B' : (marks >= 70) ? 'C' : (marks >= 60) ? 'D' : 'F';
+console.log(grade); // Output: B
+
+
