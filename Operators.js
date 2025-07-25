@@ -110,3 +110,8 @@ let grade = (marks >= 90) ? 'A' : (marks >= 80) ? 'B' : (marks >= 70) ? 'C' : (m
 console.log(grade); // Output: B
 
 
+let num1 = 10;
+let num2 = 5;
+let sum = num1 + num2;
+console.log(sum); // Output: 15
+
