@@ -120,3 +120,18 @@ console.log(sum); // Output: 15
 // test commit 
 
 // test commit 2  
+
+let num = 27;
+
+// Step 1: Check if odd or even
+if (num % 2 !== 0) {
+  // It's odd → Add 5
+  num += 5;
+}
+
+if (num > 20) {
+  // Step 3: Divide by 2
+  num = num / 2;
+}
+
+console.log("Final result:", num);  // Output will be 16
