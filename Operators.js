@@ -135,3 +135,33 @@ if (num > 20) {
 }
 
 console.log("Final result:", num);  // Output will be 16
+
+
+
+let age = 22;
+let hasLicense = true;
+let finalCost;
+
+if (age >= 21 && hasLicense) {
+  let baseCost = 500;
+  let youngDriverFee = (age < 25) ? 150 : 0;
+  finalCost = baseCost + youngDriverFee;
+
+  console.log("Eligible to rent a car");
+  console.log("Final cost:", finalCost);
+} else {
+  console.log("Not eligible to rent a car");
+}
+
+let userRole = 'admin';
+let accessLevel;
+if (userRole === 'admin') {
+  accessLevel = 'full';
+}
+else if (userRole === 'editor') {
+  accessLevel = 'partial';
+} else {
+  accessLevel = 'none';
+}
+console.log("Access Level:", accessLevel); // Output: Access Level: full
+
