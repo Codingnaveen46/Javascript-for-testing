@@ -165,3 +165,47 @@ else if (userRole === 'editor') {
 }
 console.log("Access Level:", accessLevel); // Output: Access Level: full
 
+
+// let userAge = 16;
+
+// if (userAge >= 18) {
+//     console.log("this person can vote");
+// } else {
+//     console.log("this person cannot vote");
+// }
+
+
+// write some problems for operators 
+
+// Problem 1: Check if a number is even or odd and perform an operation based on the result
+
+let number = 15; 
+if (number % 2 === 0) {
+    // If even, multiply by 2
+    number *= 2;
+}
+else {
+    // If odd, subtract 3
+    number -= 3;
+}
+
+console.log("Result after operation:", number); // Output will be 12
+
+// Problem 2: Calculate the final price of a product after applying a discount based on the price range
+let productPrice = 120; // Price of the product
+let discount;
+if (productPrice > 100) {
+    // If price is greater than 100, apply a 20% discount
+    discount = productPrice * 0.20;
+}
+
+else if (productPrice > 50) {
+    // If price is between 50 and 100, apply a 10% discount
+    discount = productPrice * 0.10;
+} else {
+    // If price is 50 or less, no discount
+    discount = 0;
+}
+let finalPrice = productPrice - discount;
+
+console.log("Final price after discount:", finalPrice); // Output will be 96
