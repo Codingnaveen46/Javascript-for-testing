@@ -106,8 +106,8 @@ console.log(passPercentage); // Output: 50
 
 
 let marks = 85;
-let grade = (marks >= 90) ? 'A' : (marks >= 80) ? 'B' : (marks >= 70) ? 'C' : (marks >= 60) ? 'D' : 'F';
-console.log(grade); // Output: B
+let studentGrade = (marks >= 90) ? 'A' : (marks >= 80) ? 'B' : (marks >= 70) ? 'C' : (marks >= 60) ? 'D' : 'F';
+console.log(studentGrade); // Output: B
 
 
 let num1 = 10;
@@ -209,3 +209,15 @@ else if (productPrice > 50) {
 let finalPrice = productPrice - discount;
 
 console.log("Final price after discount:", finalPrice); // Output will be 96
+
+
+// Problem 3: Determine the grade based on marks using a nested ternary operator
+
+let studentMarks = 75; // Marks obtained by the student
+let grade = (studentMarks >= 90) ? 'A' :
+            (studentMarks >= 80) ? 'B' :
+            (studentMarks >= 70) ? 'C' :
+            (studentMarks >= 60) ? 'D' : 'F';
+console.log("Grade:", grade); // Output will be C
+// Problem 4: Determine the access level based on user role using a switch statement
+
