@@ -221,3 +221,24 @@ let grade = (studentMarks >= 90) ? 'A' :
 console.log("Grade:", grade); // Output will be C
 // Problem 4: Determine the access level based on user role using a switch statement
 
+
+
+// problems on operators
+let userRole1 = 'editor'; // Role of the user
+let accessLevel1;
+switch (userRole1) {
+    case 'admin':
+        accessLevel1 = 'full';
+        break;
+    case 'editor':
+        accessLevel1 = 'partial';
+        break;
+    case 'viewer':
+        accessLevel1 = 'read-only';
+        break;
+    default:
+        accessLevel1 = 'none';
+}
+
+console.log("Access Level:", accessLevel1); // Output: Access Level: partial
+
