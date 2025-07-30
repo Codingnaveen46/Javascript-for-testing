@@ -242,3 +242,12 @@ switch (userRole1) {
 
 console.log("Access Level:", accessLevel1); // Output: Access Level: partial
 
+console.log(isNaN("123"));         
+console.log(Number.isNaN("123"));  
+
+console.log("5" * "2");    // ?
+console.log("5" + true);   // ?
+console.log(5 + true);     // ?
+
+
+console.log(false || (true && "go") || 0);
