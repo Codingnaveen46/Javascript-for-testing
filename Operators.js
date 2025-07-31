@@ -251,3 +251,10 @@ console.log(5 + true);     // ?
 
 
 console.log(false || (true && "go") || 0);
+
+
+
+
+console.log(true && false || true && true); // Output: true
+
+console.log(5 + 2 * 3); // Output: 11 (Multiplication first, then addition) 
