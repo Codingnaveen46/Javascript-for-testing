@@ -258,3 +258,9 @@ console.log(false || (true && "go") || 0);
 console.log(true && false || true && true); // Output: true
 
 console.log(5 + 2 * 3); // Output: 11 (Multiplication first, then addition) 
+
+console.log(5 * 2 + 3); // Output: 13 (Multiplication first, then addition)
+console.log(5 + 2 * 3 - 1); // Output: 10 (Multiplication first, then addition and subtraction)
+console.log(5 + 2 * (3 - 1)); // Output: 9 (Parentheses first, then multiplication and addition)
+console.log(5 + 2 * 3 / 2); // Output: 8 (Multiplication and division first, then addition) 
+console.log(5 * 2 + 3 / 2); // Output: 10.5 (Multiplication first, then addition and division) 
