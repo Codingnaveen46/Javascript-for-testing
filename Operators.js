@@ -269,3 +269,7 @@ console.log(5 * 2 + 3 / 2); // Output: 10.5 (Multiplication first, then addition
 console.log(5 + 2 * 3 - 1 / 2); // Output: 9.5 (Multiplication first, then addition and division)
 console.log(5 + 2 * (3 - 1) / 2); // Output: 8 (Parentheses first, then multiplication, division, and addition)
 console.log(5 + 2 * 3 / (2 - 1)); // Output: 11 (Parentheses first, then multiplication and addition)
+
+
+//test this commit 
+
