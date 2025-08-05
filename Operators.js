@@ -281,3 +281,5 @@ console.log(5 + 2 * 3 / (2 - 1)); // Output: 11 (Parentheses first, then multipl
 // test commit 2
 
 // test commit 3
+
+//test CustomElementRegistry
